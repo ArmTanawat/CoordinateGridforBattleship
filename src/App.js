@@ -143,7 +143,7 @@ function App() {
             {shipOccupie}
           </div>
         ) : (
-          <div> {shipOccupie !== null ? shipOccupie : "null"}</div>
+          <div>shipOccupie: {shipOccupie !== null ? shipOccupie : "null"}</div>
         )}
       </div>
     );
